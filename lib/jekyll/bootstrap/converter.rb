@@ -1,4 +1,5 @@
 require "jekyll/bootstrap/converter/version"
+require "jekyll/converters/bootstrap"
 
 module Jekyll
   module Bootstrap
