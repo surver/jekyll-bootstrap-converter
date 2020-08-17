@@ -2,8 +2,7 @@ module Jekyll
     module Converters
         class Bootstrap < Converter
             safe true
-            priority: low
-
+            
             def matches(ext)
                 ext =~ /^\.downcase$/i
             end
